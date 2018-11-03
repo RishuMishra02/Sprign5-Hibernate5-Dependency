@@ -1,4 +1,5 @@
-<dependencies>
+
+	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -41,6 +42,12 @@
 			<version>5.1.0.RELEASE</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>5.1.0.RELEASE</version>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 		<dependency>
@@ -55,7 +62,12 @@
 			<artifactId>spring-aop</artifactId>
 			<version>5.1.0.RELEASE</version>
 		</dependency>
-
+		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>3.2.18.RELEASE</version>
+		</dependency>
 
 		<!-- Hibernate 5 jar -->
 
@@ -91,12 +103,10 @@
 		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>4.0.1</version>
-			<scope>provided</scope>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
 		</dependency>
-
-
+		
 		<!-- Connection Pool (HikariCp) -->
 
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-hikaricp -->
